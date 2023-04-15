@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MASTER\\Documents\\SAP\\SAP\\SAP.csproj",
+      "projectUniqueName": "C:\\Users\\MASTER\\Documents\\SAP\\SAP.csproj",
       "projectName": "SAP",
-      "projectPath": "C:\\Users\\MASTER\\Documents\\SAP\\SAP\\SAP.csproj",
+      "projectPath": "C:\\Users\\MASTER\\Documents\\SAP\\SAP.csproj",
       "packagesPath": "C:\\Users\\MASTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MASTER\\Documents\\SAP\\SAP\\obj\\",
+      "outputPath": "C:\\Users\\MASTER\\Documents\\SAP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

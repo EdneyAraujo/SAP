@@ -8,12 +8,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="frm_login" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="frm_login" />
-  </ItemGroup>
-
 </Project>
