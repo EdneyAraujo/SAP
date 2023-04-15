@@ -1,0 +1,17 @@
+C:\Users\MASTER\Documents\SAP\SAP\bin\Debug\net7.0-windows\SAP.exe
+C:\Users\MASTER\Documents\SAP\SAP\bin\Debug\net7.0-windows\SAP.deps.json
+C:\Users\MASTER\Documents\SAP\SAP\bin\Debug\net7.0-windows\SAP.runtimeconfig.json
+C:\Users\MASTER\Documents\SAP\SAP\bin\Debug\net7.0-windows\SAP.dll
+C:\Users\MASTER\Documents\SAP\SAP\bin\Debug\net7.0-windows\SAP.pdb
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\SAP.csproj.AssemblyReference.cache
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\SAP.Form1.resources
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\SAP.csproj.GenerateResource.cache
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\SAP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\SAP.AssemblyInfoInputs.cache
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\SAP.AssemblyInfo.cs
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\SAP.csproj.CoreCompileInputs.cache
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\SAP.dll
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\refint\SAP.dll
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\SAP.pdb
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\SAP.genruntimeconfig.cache
+C:\Users\MASTER\Documents\SAP\SAP\obj\Debug\net7.0-windows\ref\SAP.dll
