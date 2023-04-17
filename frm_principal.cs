@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SAP
 {
-    public partial class Form1 : Form
+    public partial class frm_principal : Form
     {
-        public Form1()
+        public frm_principal()
         {
             InitializeComponent();
         }

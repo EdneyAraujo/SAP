@@ -1,6 +1,6 @@
 ﻿namespace SAP
 {
-    partial class Form1
+    partial class frm_login
     {
         /// <summary>
         /// Variável de designer necessária.

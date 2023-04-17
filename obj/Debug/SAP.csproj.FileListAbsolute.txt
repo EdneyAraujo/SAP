@@ -1,0 +1,12 @@
+C:\Users\ecaraujo\Documents\SAP\bin\Debug\SAP.exe.config
+C:\Users\ecaraujo\Documents\SAP\bin\Debug\SAP.exe
+C:\Users\ecaraujo\Documents\SAP\bin\Debug\SAP.pdb
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.csproj.AssemblyReference.cache
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.csproj.SuggestedBindingRedirects.cache
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.Properties.Resources.resources
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.csproj.GenerateResource.cache
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.csproj.CoreCompileInputs.cache
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.exe
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.pdb
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.frm_principal.resources
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.frm_login.resources
