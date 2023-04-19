@@ -1,0 +1,6 @@
+C:\Users\MASTER\Documents\SAP\Ferramentas\bin\Debug\Ferramentas.dll
+C:\Users\MASTER\Documents\SAP\Ferramentas\bin\Debug\Ferramentas.pdb
+C:\Users\MASTER\Documents\SAP\Ferramentas\obj\Debug\Ferramentas.csproj.AssemblyReference.cache
+C:\Users\MASTER\Documents\SAP\Ferramentas\obj\Debug\Ferramentas.csproj.CoreCompileInputs.cache
+C:\Users\MASTER\Documents\SAP\Ferramentas\obj\Debug\Ferramentas.dll
+C:\Users\MASTER\Documents\SAP\Ferramentas\obj\Debug\Ferramentas.pdb

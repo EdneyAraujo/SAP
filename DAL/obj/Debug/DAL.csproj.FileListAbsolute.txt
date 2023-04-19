@@ -4,3 +4,6 @@ C:\Users\MASTER\Documents\SAP\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
 C:\Users\MASTER\Documents\SAP\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\MASTER\Documents\SAP\DAL\obj\Debug\DAL.dll
 C:\Users\MASTER\Documents\SAP\DAL\obj\Debug\DAL.pdb
+C:\Users\MASTER\Documents\SAP\DAL\bin\Debug\Modelo.dll
+C:\Users\MASTER\Documents\SAP\DAL\bin\Debug\Modelo.pdb
+C:\Users\MASTER\Documents\SAP\DAL\obj\Debug\DAL.csproj.CopyComplete

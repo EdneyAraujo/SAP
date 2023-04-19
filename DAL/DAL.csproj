@@ -44,7 +44,14 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DadosDaConexao.cs" />
     <Compile Include="DALConexao.cs" />
+    <Compile Include="DALPessoas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modelo\Modelo.csproj">
+      <Project>{83701270-60E7-4D4F-8237-F5B4ED41407E}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -23,7 +23,8 @@ namespace SAP
             InitializeComponent();
         }
 
-        SqlConnection con = new SqlConnection(@"Data Source=022621-GTI\SQLEXPRESS;Initial Catalog=SAPINTEGRADO;User ID=sa;Password=Onl3023@#");
+        //SqlConnection con = new SqlConnection(@"Data Source=022621-GTI\SQLEXPRESS;Initial Catalog=SAPINTEGRADO;User ID=sa;Password=Onl3023@#");
+        SqlConnection con = new SqlConnection(@"Data Source=HOUSERMASTER\SQLEXPRESS;Initial Catalog=SAPINTEGRADO;User ID=sa;Password=30232800");
         private void btn_entrar_Click(object sender, EventArgs e)
         {
             con.Open();

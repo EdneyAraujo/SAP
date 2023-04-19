@@ -16,5 +16,12 @@ namespace SAP
         {
             InitializeComponent();
         }
+
+        private void pessoaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_cadastro_pessoas abrir_frm_pessoas = new frm_cadastro_pessoas();
+            abrir_frm_pessoas.ShowDialog();
+            abrir_frm_pessoas.Dispose();
+        }
     }
 }

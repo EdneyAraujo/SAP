@@ -11,10 +11,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAP", "SAP.csproj", "{BCEAE
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{057B8665-ED16-46B1-8E93-1C078E93CF89}"
+	ProjectSection(ProjectDependencies) = postProject
+		{83701270-60E7-4D4F-8237-F5B4ED41407E} = {83701270-60E7-4D4F-8237-F5B4ED41407E}
+		{AFF73A84-E477-424A-8F48-8563B7ED065E} = {AFF73A84-E477-424A-8F48-8563B7ED065E}
+		{EC4B6E96-F9D6-427B-9C08-4D4A538C7C65} = {EC4B6E96-F9D6-427B-9C08-4D4A538C7C65}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{AFF73A84-E477-424A-8F48-8563B7ED065E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{83701270-60E7-4D4F-8237-F5B4ED41407E} = {83701270-60E7-4D4F-8237-F5B4ED41407E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{83701270-60E7-4D4F-8237-F5B4ED41407E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferramentas", "Ferramentas\Ferramentas.csproj", "{EC4B6E96-F9D6-427B-9C08-4D4A538C7C65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +48,10 @@ Global
 		{83701270-60E7-4D4F-8237-F5B4ED41407E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83701270-60E7-4D4F-8237-F5B4ED41407E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83701270-60E7-4D4F-8237-F5B4ED41407E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4B6E96-F9D6-427B-9C08-4D4A538C7C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4B6E96-F9D6-427B-9C08-4D4A538C7C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4B6E96-F9D6-427B-9C08-4D4A538C7C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4B6E96-F9D6-427B-9C08-4D4A538C7C65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

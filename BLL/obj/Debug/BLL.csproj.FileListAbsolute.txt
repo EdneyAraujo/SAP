@@ -4,3 +4,10 @@ C:\Users\MASTER\Documents\SAP\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 C:\Users\MASTER\Documents\SAP\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 C:\Users\MASTER\Documents\SAP\BLL\obj\Debug\BLL.dll
 C:\Users\MASTER\Documents\SAP\BLL\obj\Debug\BLL.pdb
+C:\Users\MASTER\Documents\SAP\BLL\bin\Debug\DAL.dll
+C:\Users\MASTER\Documents\SAP\BLL\bin\Debug\Ferramentas.dll
+C:\Users\MASTER\Documents\SAP\BLL\bin\Debug\Modelo.dll
+C:\Users\MASTER\Documents\SAP\BLL\bin\Debug\DAL.pdb
+C:\Users\MASTER\Documents\SAP\BLL\bin\Debug\Ferramentas.pdb
+C:\Users\MASTER\Documents\SAP\BLL\bin\Debug\Modelo.pdb
+C:\Users\MASTER\Documents\SAP\BLL\obj\Debug\BLL.csproj.CopyComplete
