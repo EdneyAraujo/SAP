@@ -22,3 +22,4 @@ C:\Users\MASTER\Documents\SAP\obj\Debug\SAP.pdb
 C:\Users\MASTER\Documents\SAP\bin\Debug\SAP.exe.config
 C:\Users\MASTER\Documents\SAP\bin\Debug\SAP.exe
 C:\Users\MASTER\Documents\SAP\bin\Debug\SAP.pdb
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.frm_cadastro_pessoas.resources
