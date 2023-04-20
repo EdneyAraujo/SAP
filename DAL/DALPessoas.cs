@@ -22,26 +22,26 @@ namespace DAL
         {
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = conexao.ObjetoConexao;
-            cmd.CommandText = "insert into cliente(cli_nome, cli_cpfcnpj, cli_rgie, cli_rsocial," +
-            "cli_tipo, cli_cep, cli_endereco, cli_bairro, cli_fone, cli_cel, cli_email, cli_endnumero," +
-            "cli_cidade, cli_estado) values (@cli_nome, @cli_cpfcnpj, @cli_rgie, @cli_rsocial," +
-            "@cli_tipo, @cli_cep, @cli_endereco, @cli_bairro, @cli_fone, @cli_cel, @cli_email, @cli_endnumero," +
-            "@cli_cidade, @cli_estado);  select @@IDENTITY;";
+            cmd.CommandText = "insert into PESSOAS(nome, cpfcnpj, rgie, rsocial," +
+            "tipo, cep, endereco, bairro, fone, cel, email, endnumero," +
+            "cidade, estado) values (@nome, @cpfcnpj, @rgie, @rsocial," +
+            "@tipo, @cep, @endereco, @bairro, @fone, @cel, @email, @endnumero," +
+            "@cidade, @estado);  select @@IDENTITY;";
 
-            cmd.Parameters.AddWithValue("@cli_nome", modelo.CliNome);
-            cmd.Parameters.AddWithValue("@cli_cpfcnpj", modelo.CliCpfCnpj);
-            cmd.Parameters.AddWithValue("@cli_rgie", modelo.CliRgIe);
-            cmd.Parameters.AddWithValue("@cli_rsocial", modelo.CliRsocial);
-            cmd.Parameters.AddWithValue("@cli_tipo", modelo.CliTipo);
-            cmd.Parameters.AddWithValue("@cli_cep", modelo.CliCep);
-            cmd.Parameters.AddWithValue("@cli_endereco", modelo.CliEndereco);
-            cmd.Parameters.AddWithValue("@cli_bairro", modelo.CliBairro);
-            cmd.Parameters.AddWithValue("@cli_fone", modelo.CliFone);
-            cmd.Parameters.AddWithValue("@cli_cel", modelo.CliCelular);
-            cmd.Parameters.AddWithValue("@cli_email", modelo.CliEmail);
-            cmd.Parameters.AddWithValue("@cli_endnumero", modelo.CliEndNumero);
-            cmd.Parameters.AddWithValue("@cli_cidade", modelo.CliCidade);
-            cmd.Parameters.AddWithValue("@cli_estado", modelo.CliEstado);
+            cmd.Parameters.AddWithValue("@nome", modelo.CliNome);
+            cmd.Parameters.AddWithValue("@cpfcnpj", modelo.CliCpfCnpj);
+            cmd.Parameters.AddWithValue("@rgie", modelo.CliRgIe);
+            cmd.Parameters.AddWithValue("@rsocial", modelo.CliRsocial);
+            cmd.Parameters.AddWithValue("@tipo", modelo.CliTipo);
+            cmd.Parameters.AddWithValue("@cep", modelo.CliCep);
+            cmd.Parameters.AddWithValue("@endereco", modelo.CliEndereco);
+            cmd.Parameters.AddWithValue("@bairro", modelo.CliBairro);
+            cmd.Parameters.AddWithValue("@fone", modelo.CliFone);
+            cmd.Parameters.AddWithValue("@cel", modelo.CliCelular);
+            cmd.Parameters.AddWithValue("@email", modelo.CliEmail);
+            cmd.Parameters.AddWithValue("@endnumero", modelo.CliEndNumero);
+            cmd.Parameters.AddWithValue("@cidade", modelo.CliCidade);
+            cmd.Parameters.AddWithValue("@estado", modelo.CliEstado);
             conexao.Conectar();
             modelo.CliCod = Convert.ToInt32(cmd.ExecuteScalar());
             conexao.Desconectar();

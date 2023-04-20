@@ -23,3 +23,14 @@ C:\Users\MASTER\Documents\SAP\bin\Debug\SAP.exe.config
 C:\Users\MASTER\Documents\SAP\bin\Debug\SAP.exe
 C:\Users\MASTER\Documents\SAP\bin\Debug\SAP.pdb
 C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.frm_cadastro_pessoas.resources
+C:\Users\MASTER\Documents\SAP\bin\Debug\BLL.dll
+C:\Users\MASTER\Documents\SAP\bin\Debug\DAL.dll
+C:\Users\MASTER\Documents\SAP\bin\Debug\Modelo.dll
+C:\Users\MASTER\Documents\SAP\bin\Debug\Ferramentas.dll
+C:\Users\MASTER\Documents\SAP\bin\Debug\BLL.pdb
+C:\Users\MASTER\Documents\SAP\bin\Debug\DAL.pdb
+C:\Users\MASTER\Documents\SAP\bin\Debug\Modelo.pdb
+C:\Users\MASTER\Documents\SAP\bin\Debug\Ferramentas.pdb
+C:\Users\MASTER\Documents\SAP\obj\Debug\SAP.frm_cadastro_pessoas.resources
+C:\Users\MASTER\Documents\SAP\obj\Debug\SAP.csproj.CopyComplete
+C:\Users\MASTER\Documents\SAP\obj\Debug\SAP.frm_consultar_pessoas.resources

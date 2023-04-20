@@ -52,6 +52,12 @@
     <Compile Include="frm_cadastro_pessoas.Designer.cs">
       <DependentUpon>frm_cadastro_pessoas.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_consultar_pessoas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_consultar_pessoas.Designer.cs">
+      <DependentUpon>frm_consultar_pessoas.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="Usuario.cs" />
     <EmbeddedResource Include="frm_cadastro_pessoas.resx">
       <DependentUpon>frm_cadastro_pessoas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_consultar_pessoas.resx">
+      <DependentUpon>frm_consultar_pessoas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_login.resx">
       <DependentUpon>frm_login.cs</DependentUpon>
@@ -97,6 +106,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="BLL\BLL.csproj">
+      <Project>{057B8665-ED16-46B1-8E93-1C078E93CF89}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="DAL\DAL.csproj">
+      <Project>{AFF73A84-E477-424A-8F48-8563B7ED065E}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="Modelo\Modelo.csproj">
+      <Project>{83701270-60E7-4D4F-8237-F5B4ED41407E}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
