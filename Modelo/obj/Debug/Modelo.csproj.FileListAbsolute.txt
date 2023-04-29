@@ -4,3 +4,9 @@ C:\Users\MASTER\Documents\SAP\Modelo\bin\Debug\Modelo.dll
 C:\Users\MASTER\Documents\SAP\Modelo\bin\Debug\Modelo.pdb
 C:\Users\MASTER\Documents\SAP\Modelo\obj\Debug\Modelo.dll
 C:\Users\MASTER\Documents\SAP\Modelo\obj\Debug\Modelo.pdb
+C:\Users\ecaraujo\Documents\SAP\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\ecaraujo\Documents\SAP\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\ecaraujo\Documents\SAP\Modelo\obj\Debug\Modelo.dll
+C:\Users\ecaraujo\Documents\SAP\Modelo\obj\Debug\Modelo.pdb
+C:\Users\ecaraujo\Documents\SAP\Modelo\bin\Debug\Modelo.dll
+C:\Users\ecaraujo\Documents\SAP\Modelo\bin\Debug\Modelo.pdb

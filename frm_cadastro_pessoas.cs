@@ -124,11 +124,11 @@ namespace SAP
         {
             frm_consultar_pessoas abrirconsultapessoa = new frm_consultar_pessoas();
             abrirconsultapessoa.ShowDialog();
-            if (f.codigo != 0)
+            if (abrirconsultapessoa.codigo != 0)
             {
                 DALConexao cx = new DALConexao(DadosDaConexao.StringDeConexao);
                 BLLPessoas bll = new BLLPessoas(cx);
-                ModeloPessoas modelo = bll.CarregaModeloCliente(f.codigo);
+                ModeloPessoas modelo = bll.CarregaModeloCliente(abrirconsultapessoa.codigo);
                 txtCodigo.Text = modelo.CliCod.ToString();
 
                 if (modelo.CliTipo == "F")
@@ -159,7 +159,7 @@ namespace SAP
                 //this.LimpaTela();
                 this.alteraBotoes(1);
             }
-            f.Dispose();
+            abrirconsultapessoa.Dispose();
         }
     }
 }

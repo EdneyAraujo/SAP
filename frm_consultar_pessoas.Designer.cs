@@ -80,6 +80,7 @@
             this.btLocalizar.TabIndex = 12;
             this.btLocalizar.Text = "Localizar";
             this.btLocalizar.UseVisualStyleBackColor = true;
+            this.btLocalizar.Click += new System.EventHandler(this.btLocalizar_Click);
             // 
             // txtValor
             // 

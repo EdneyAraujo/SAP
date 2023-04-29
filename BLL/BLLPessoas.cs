@@ -78,5 +78,29 @@ namespace BLL
         DALPessoas DALobj = new DALPessoas(conexao);
         DALobj.Incluir(modelo);
     }
+        public ModeloPessoas CarregaModeloCliente(int codigo)
+        {
+            DALPessoas DALobj = new DALPessoas(conexao);
+            return DALobj.CarregaModeloPessoas(codigo);
+        }
+
+        public ModeloPessoas CarregaModeloCliente(string cpfcnpj)
+        {
+            DALPessoas DALobj = new DALPessoas(conexao);
+            return DALobj.CarregaModeloPessoas(cpfcnpj);
+        }
+
+        public DataTable LocalizarporNome(String valor)
+        {
+            DALPessoas DALobj = new DALPessoas(conexao);
+            return DALobj.LocalizarporNome(valor);
+        }
+
+        public DataTable LocalizarporCPFCNPJ(String valor)
+        {
+            DALPessoas DALobj = new DALPessoas(conexao);
+            return DALobj.LocalizarporCPFCNPJ(valor);
+        }
+
     }
 }

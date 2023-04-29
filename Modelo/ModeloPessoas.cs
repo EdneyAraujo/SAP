@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DAL;
+//using DAL;
 using Modelo;
 using System.Data;
 
@@ -157,16 +157,6 @@ namespace Modelo
             set { this.cli_estado = value; }
         }
 
-        public ModeloPessoas CarregaModeloCliente(int codigo)
-        {
-            DALPessoas DALobj = new DALPessoas(conexao);
-            return DALobj.CarregaModeloPessoas(codigo);
-        }
-
-        public ModeloPessoas CarregaModeloCliente(string cpfcnpj)
-        {
-            DALPessoas DALobj = new DALPessoase(conexao);
-            return DALobj.CarregaModeloPessoas(cpfcnpj);
-        }
+        
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BLL;
+using DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +14,24 @@ namespace SAP
 {
     public partial class frm_consultar_pessoas : Form
     {
+        public int codigo = 0;
         public frm_consultar_pessoas()
         {
             InitializeComponent();
+        }
+
+        private void btLocalizar_Click(object sender, EventArgs e)
+        {
+            DALConexao cx = new DALConexao(DadosDaConexao.StringDeConexao);
+            BLLPessoas bll = new BLLPessoas(cx);
+            if (rbNome.Checked == true)
+            {
+                dgvDados.DataSource = bll.LocalizarporNome(txtValor.Text);
+            }
+            else
+            {
+                dgvDados.DataSource = bll.LocalizarporCPFCNPJ(txtValor.Text);
+            }
         }
     }
 }

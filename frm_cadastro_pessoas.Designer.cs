@@ -29,6 +29,18 @@
         private void InitializeComponent()
         {
             this.pnDados = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rbJuridica = new System.Windows.Forms.RadioButton();
+            this.rbFisica = new System.Windows.Forms.RadioButton();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txtCelular = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtFone = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtBairro = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -50,25 +62,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btInseri = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtBairro = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.txtFone = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.txtCelular = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbFisica = new System.Windows.Forms.RadioButton();
-            this.rbJuridica = new System.Windows.Forms.RadioButton();
-            this.btSalvar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btLocalizar = new System.Windows.Forms.Button();
+            this.btSalvar = new System.Windows.Forms.Button();
+            this.btInseri = new System.Windows.Forms.Button();
             this.pnDados.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnDados
@@ -105,8 +105,113 @@
             this.pnDados.Controls.Add(this.txtNome);
             this.pnDados.Location = new System.Drawing.Point(12, 12);
             this.pnDados.Name = "pnDados";
-            this.pnDados.Size = new System.Drawing.Size(720, 411);
+            this.pnDados.Size = new System.Drawing.Size(720, 396);
             this.pnDados.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(562, 18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(134, 137);
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rbJuridica);
+            this.groupBox1.Controls.Add(this.rbFisica);
+            this.groupBox1.Location = new System.Drawing.Point(86, 9);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(239, 61);
+            this.groupBox1.TabIndex = 28;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "TIPO PESSOA";
+            // 
+            // rbJuridica
+            // 
+            this.rbJuridica.AutoSize = true;
+            this.rbJuridica.Location = new System.Drawing.Point(102, 27);
+            this.rbJuridica.Name = "rbJuridica";
+            this.rbJuridica.Size = new System.Drawing.Size(61, 17);
+            this.rbJuridica.TabIndex = 1;
+            this.rbJuridica.TabStop = true;
+            this.rbJuridica.Text = "Juridica";
+            this.rbJuridica.UseVisualStyleBackColor = true;
+            // 
+            // rbFisica
+            // 
+            this.rbFisica.AutoSize = true;
+            this.rbFisica.Location = new System.Drawing.Point(20, 26);
+            this.rbFisica.Name = "rbFisica";
+            this.rbFisica.Size = new System.Drawing.Size(52, 17);
+            this.rbFisica.TabIndex = 0;
+            this.rbFisica.TabStop = true;
+            this.rbFisica.Text = "Fisica";
+            this.rbFisica.UseVisualStyleBackColor = true;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(366, 177);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(56, 13);
+            this.label13.TabIndex = 27;
+            this.label13.Text = "CELULAR";
+            // 
+            // txtCelular
+            // 
+            this.txtCelular.Location = new System.Drawing.Point(363, 193);
+            this.txtCelular.Name = "txtCelular";
+            this.txtCelular.Size = new System.Drawing.Size(143, 20);
+            this.txtCelular.TabIndex = 26;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(366, 332);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(63, 13);
+            this.label12.TabIndex = 25;
+            this.label12.Text = "TELEFONE";
+            // 
+            // txtFone
+            // 
+            this.txtFone.Location = new System.Drawing.Point(363, 348);
+            this.txtFone.Name = "txtFone";
+            this.txtFone.Size = new System.Drawing.Size(143, 20);
+            this.txtFone.TabIndex = 24;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(185, 332);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(39, 13);
+            this.label11.TabIndex = 23;
+            this.label11.Text = "EMAIL";
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(182, 348);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(143, 20);
+            this.txtEmail.TabIndex = 22;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(11, 332);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(48, 13);
+            this.label10.TabIndex = 21;
+            this.label10.Text = "BAIRRO";
+            // 
+            // txtBairro
+            // 
+            this.txtBairro.Location = new System.Drawing.Point(8, 348);
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(143, 20);
+            this.txtBairro.TabIndex = 20;
             // 
             // label9
             // 
@@ -278,116 +383,19 @@
             this.panel2.Size = new System.Drawing.Size(720, 74);
             this.panel2.TabIndex = 1;
             // 
-            // btInseri
+            // btLocalizar
             // 
-            this.btInseri.Location = new System.Drawing.Point(14, 18);
-            this.btInseri.Name = "btInseri";
-            this.btInseri.Size = new System.Drawing.Size(75, 37);
-            this.btInseri.TabIndex = 0;
-            this.btInseri.Text = "INCLUIR";
-            this.btInseri.UseVisualStyleBackColor = true;
-            this.btInseri.Click += new System.EventHandler(this.btInseri_Click);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(11, 332);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(48, 13);
-            this.label10.TabIndex = 21;
-            this.label10.Text = "BAIRRO";
-            // 
-            // txtBairro
-            // 
-            this.txtBairro.Location = new System.Drawing.Point(8, 348);
-            this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(143, 20);
-            this.txtBairro.TabIndex = 20;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(185, 332);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(39, 13);
-            this.label11.TabIndex = 23;
-            this.label11.Text = "EMAIL";
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(182, 348);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(143, 20);
-            this.txtEmail.TabIndex = 22;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(366, 332);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(63, 13);
-            this.label12.TabIndex = 25;
-            this.label12.Text = "TELEFONE";
-            // 
-            // txtFone
-            // 
-            this.txtFone.Location = new System.Drawing.Point(363, 348);
-            this.txtFone.Name = "txtFone";
-            this.txtFone.Size = new System.Drawing.Size(143, 20);
-            this.txtFone.TabIndex = 24;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(366, 177);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(56, 13);
-            this.label13.TabIndex = 27;
-            this.label13.Text = "CELULAR";
-            // 
-            // txtCelular
-            // 
-            this.txtCelular.Location = new System.Drawing.Point(363, 193);
-            this.txtCelular.Name = "txtCelular";
-            this.txtCelular.Size = new System.Drawing.Size(143, 20);
-            this.txtCelular.TabIndex = 26;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.rbJuridica);
-            this.groupBox1.Controls.Add(this.rbFisica);
-            this.groupBox1.Location = new System.Drawing.Point(86, 9);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(239, 61);
-            this.groupBox1.TabIndex = 28;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "TIPO PESSOA";
-            // 
-            // rbFisica
-            // 
-            this.rbFisica.AutoSize = true;
-            this.rbFisica.Location = new System.Drawing.Point(20, 26);
-            this.rbFisica.Name = "rbFisica";
-            this.rbFisica.Size = new System.Drawing.Size(52, 17);
-            this.rbFisica.TabIndex = 0;
-            this.rbFisica.TabStop = true;
-            this.rbFisica.Text = "Fisica";
-            this.rbFisica.UseVisualStyleBackColor = true;
-            // 
-            // rbJuridica
-            // 
-            this.rbJuridica.AutoSize = true;
-            this.rbJuridica.Location = new System.Drawing.Point(102, 27);
-            this.rbJuridica.Name = "rbJuridica";
-            this.rbJuridica.Size = new System.Drawing.Size(61, 17);
-            this.rbJuridica.TabIndex = 1;
-            this.rbJuridica.TabStop = true;
-            this.rbJuridica.Text = "Juridica";
-            this.rbJuridica.UseVisualStyleBackColor = true;
+            this.btLocalizar.Location = new System.Drawing.Point(198, 27);
+            this.btLocalizar.Name = "btLocalizar";
+            this.btLocalizar.Size = new System.Drawing.Size(75, 37);
+            this.btLocalizar.TabIndex = 2;
+            this.btLocalizar.Text = "Localizar";
+            this.btLocalizar.UseVisualStyleBackColor = true;
+            this.btLocalizar.Click += new System.EventHandler(this.btLocalizar_Click);
             // 
             // btSalvar
             // 
-            this.btSalvar.Location = new System.Drawing.Point(106, 18);
+            this.btSalvar.Location = new System.Drawing.Point(106, 27);
             this.btSalvar.Name = "btSalvar";
             this.btSalvar.Size = new System.Drawing.Size(75, 37);
             this.btSalvar.TabIndex = 1;
@@ -395,23 +403,15 @@
             this.btSalvar.UseVisualStyleBackColor = true;
             this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click);
             // 
-            // pictureBox1
+            // btInseri
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(562, 18);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(134, 137);
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btLocalizar
-            // 
-            this.btLocalizar.Location = new System.Drawing.Point(198, 18);
-            this.btLocalizar.Name = "btLocalizar";
-            this.btLocalizar.Size = new System.Drawing.Size(75, 37);
-            this.btLocalizar.TabIndex = 2;
-            this.btLocalizar.Text = "Localizar";
-            this.btLocalizar.UseVisualStyleBackColor = true;
-            this.btLocalizar.Click += new System.EventHandler(this.btLocalizar_Click);
+            this.btInseri.Location = new System.Drawing.Point(14, 27);
+            this.btInseri.Name = "btInseri";
+            this.btInseri.Size = new System.Drawing.Size(75, 37);
+            this.btInseri.TabIndex = 0;
+            this.btInseri.Text = "INCLUIR";
+            this.btInseri.UseVisualStyleBackColor = true;
+            this.btInseri.Click += new System.EventHandler(this.btInseri_Click);
             // 
             // frm_cadastro_pessoas
             // 
@@ -428,10 +428,10 @@
             this.Text = "CADASTRO DE PESSOAS";
             this.pnDados.ResumeLayout(false);
             this.pnDados.PerformLayout();
-            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

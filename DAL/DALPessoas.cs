@@ -46,5 +46,93 @@ namespace DAL
             modelo.CliCod = Convert.ToInt32(cmd.ExecuteScalar());
             conexao.Desconectar();
         }
+
+        public ModeloPessoas CarregaModeloPessoas(int codigo)
+        {
+            ModeloPessoas modelo = new ModeloPessoas();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = conexao.ObjetoConexao;
+            cmd.CommandText = "select * from PESSOAS where cli_cod = @codigo";
+            cmd.Parameters.AddWithValue("@codigo", codigo);
+            conexao.Conectar();
+            SqlDataReader registro = cmd.ExecuteReader();
+            if (registro.HasRows)
+            {
+                registro.Read();
+                modelo.CliCod = Convert.ToInt32(registro["cli_cod"]);
+                modelo.CliNome = Convert.ToString(registro["cli_nome"]);
+                modelo.CliCpfCnpj = Convert.ToString(registro["cli_cpfcnpj"]);
+                modelo.CliRgIe = Convert.ToString(registro["cli_rgie"]);
+                modelo.CliRsocial = Convert.ToString(registro["cli_rsocial"]);
+                modelo.CliTipo = Convert.ToString(registro["cli_tipo"]);
+                modelo.CliCep = Convert.ToString(registro["cli_cep"]);
+                modelo.CliEndereco = Convert.ToString(registro["cli_endereco"]);
+                modelo.CliBairro = Convert.ToString(registro["cli_bairro"]);
+                modelo.CliFone = Convert.ToString(registro["cli_fone"]);
+                modelo.CliCelular = Convert.ToString(registro["cli_cel"]);
+                modelo.CliEmail = Convert.ToString(registro["cli_email"]);
+                modelo.CliEndNumero = Convert.ToString(registro["cli_endnumero"]);
+                modelo.CliCidade = Convert.ToString(registro["cli_cidade"]);
+                modelo.CliEstado = Convert.ToString(registro["cli_estado"]);
+            }
+            conexao.Desconectar();
+            return modelo;
+        }
+
+        public ModeloPessoas CarregaModeloPessoas(string cpfcnpj)
+        {
+            ModeloPessoas modelo = new ModeloPessoas();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = conexao.ObjetoConexao;
+            cmd.CommandText = "select * from cliente where cli_cpfcnpj = @cpfcnpj";
+            cmd.Parameters.AddWithValue("@cpfcnpj", cpfcnpj);
+            conexao.Conectar();
+            SqlDataReader registro = cmd.ExecuteReader();
+            if (registro.HasRows)
+            {
+                registro.Read();
+                modelo.CliCod = Convert.ToInt32(registro["cli_cod"]);
+                modelo.CliNome = Convert.ToString(registro["cli_nome"]);
+                modelo.CliCpfCnpj = Convert.ToString(registro["cli_cpfcnpj"]);
+                modelo.CliRgIe = Convert.ToString(registro["cli_rgie"]);
+                modelo.CliRsocial = Convert.ToString(registro["cli_rsocial"]);
+                modelo.CliTipo = Convert.ToString(registro["cli_tipo"]);
+                modelo.CliCep = Convert.ToString(registro["cli_cep"]);
+                modelo.CliEndereco = Convert.ToString(registro["cli_endereco"]);
+                modelo.CliBairro = Convert.ToString(registro["cli_bairro"]);
+                modelo.CliFone = Convert.ToString(registro["cli_fone"]);
+                modelo.CliCelular = Convert.ToString(registro["cli_cel"]);
+                modelo.CliEmail = Convert.ToString(registro["cli_email"]);
+                modelo.CliEndNumero = Convert.ToString(registro["cli_endnumero"]);
+                modelo.CliCidade = Convert.ToString(registro["cli_cidade"]);
+                modelo.CliEstado = Convert.ToString(registro["cli_estado"]);
+            }
+            conexao.Desconectar();
+            return modelo;
+        }
+
+        public DataTable Localizar(String valor)
+        {
+            DataTable tabela = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter("select * from PESSOAS where cli_nome like '%" +
+                valor + "%'", conexao.StringConexao);
+            da.Fill(tabela);
+            return tabela;
+        }
+
+        public DataTable LocalizarporNome(String valor)
+        {
+
+            return Localizar(valor);
+        }
+
+        public DataTable LocalizarporCPFCNPJ(String valor)
+        {
+            DataTable tabela = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter("select * from cliente where cli_cpfcnpj like '%" +
+                valor + "%'", conexao.StringConexao);
+            da.Fill(tabela);
+            return tabela;
+        }
     }
 }
