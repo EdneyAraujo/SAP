@@ -33,5 +33,14 @@ namespace SAP
                 dgvDados.DataSource = bll.LocalizarporCPFCNPJ(txtValor.Text);
             }
         }
+
+        private void dgvDados_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                this.codigo = Convert.ToInt32(dgvDados.Rows[e.RowIndex].Cells[0].Value);
+                this.Close();
+            }
+        }
     }
 }
