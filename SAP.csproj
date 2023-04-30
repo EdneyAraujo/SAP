@@ -58,6 +58,12 @@
     <Compile Include="frm_consultar_pessoas.Designer.cs">
       <DependentUpon>frm_consultar_pessoas.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_consulta_financeiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_consulta_financeiro.Designer.cs">
+      <DependentUpon>frm_consulta_financeiro.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_login.cs">
       <SubType>Form</SubType>
     </Compile>
