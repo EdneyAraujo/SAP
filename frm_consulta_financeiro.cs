@@ -16,5 +16,11 @@ namespace SAP
         {
             InitializeComponent();
         }
+
+        private void btnIncluir_Click(object sender, EventArgs e)
+        {
+            frm_cadastro_financeiro abrircadfinanceiro = new frm_cadastro_financeiro();
+            abrircadfinanceiro.ShowDialog();
+        }
     }
 }

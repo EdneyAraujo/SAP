@@ -23,5 +23,11 @@ namespace SAP
             abrir_frm_pessoas.ShowDialog();
             abrir_frm_pessoas.Dispose();
         }
+
+        private void financeiroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_consulta_financeiro abrirfinanceiro = new frm_consulta_financeiro();
+            abrirfinanceiro.ShowDialog();
+        }
     }
 }

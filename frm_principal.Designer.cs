@@ -109,6 +109,7 @@
             this.financeiroToolStripMenuItem.Name = "financeiroToolStripMenuItem";
             this.financeiroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.financeiroToolStripMenuItem.Text = "Financeiro";
+            this.financeiroToolStripMenuItem.Click += new System.EventHandler(this.financeiroToolStripMenuItem_Click);
             // 
             // relatorioToolStripMenuItem
             // 
