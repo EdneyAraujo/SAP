@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvDadosFin = new System.Windows.Forms.DataGridView();
+            this.dgvDados = new System.Windows.Forms.DataGridView();
             this.btLocalizar = new System.Windows.Forms.Button();
             this.txtValor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnIncluir = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDadosFin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDados)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgvDadosFin
+            // dgvDados
             // 
-            this.dgvDadosFin.AllowUserToAddRows = false;
-            this.dgvDadosFin.AllowUserToDeleteRows = false;
-            this.dgvDadosFin.BackgroundColor = System.Drawing.SystemColors.HighlightText;
-            this.dgvDadosFin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDadosFin.Location = new System.Drawing.Point(12, 132);
-            this.dgvDadosFin.Name = "dgvDadosFin";
-            this.dgvDadosFin.ReadOnly = true;
-            this.dgvDadosFin.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDadosFin.Size = new System.Drawing.Size(756, 306);
-            this.dgvDadosFin.TabIndex = 14;
+            this.dgvDados.AllowUserToAddRows = false;
+            this.dgvDados.AllowUserToDeleteRows = false;
+            this.dgvDados.BackgroundColor = System.Drawing.SystemColors.HighlightText;
+            this.dgvDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDados.Location = new System.Drawing.Point(12, 132);
+            this.dgvDados.Name = "dgvDados";
+            this.dgvDados.ReadOnly = true;
+            this.dgvDados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvDados.Size = new System.Drawing.Size(756, 306);
+            this.dgvDados.TabIndex = 14;
             // 
             // btLocalizar
             // 
@@ -57,6 +57,7 @@
             this.btLocalizar.TabIndex = 17;
             this.btLocalizar.Text = "Localizar";
             this.btLocalizar.UseVisualStyleBackColor = true;
+            this.btLocalizar.Click += new System.EventHandler(this.btLocalizar_Click);
             // 
             // txtValor
             // 
@@ -93,13 +94,13 @@
             this.Controls.Add(this.btLocalizar);
             this.Controls.Add(this.txtValor);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dgvDadosFin);
+            this.Controls.Add(this.dgvDados);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frm_consulta_financeiro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FINANCEIRO";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDadosFin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -107,7 +108,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvDadosFin;
+        private System.Windows.Forms.DataGridView dgvDados;
         private System.Windows.Forms.Button btLocalizar;
         private System.Windows.Forms.TextBox txtValor;
         private System.Windows.Forms.Label label1;

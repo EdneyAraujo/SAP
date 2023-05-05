@@ -9,10 +9,10 @@ namespace DAL
     public class DadosDaConexao
     {
 
-        public static String servidor = @"HOUSERMASTER\SQLEXPRESS";
-        public static String banco = "SAPINTEGRADO";
+        public static String servidor = @"0fTI\SQLEXPRESS";
+        public static String banco = "SAPfGRADO";
         public static String usuario = "sa";
-        public static String senha = "30232800";
+        public static String senha = "Onlf@#";
 
         public static String StringDeConexao
         {

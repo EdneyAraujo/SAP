@@ -44,6 +44,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DadosDaConexao.cs" />
     <Compile Include="DALConexao.cs" />
+    <Compile Include="DALFinanceiro.cs" />
     <Compile Include="DALPessoas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -46,3 +46,5 @@ C:\Users\ecaraujo\Documents\SAP\bin\Debug\Ferramentas.pdb
 C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.csproj.CopyComplete
 C:\Users\MASTER\Documents\SAP\obj\Debug\SAP.frm_cadastro_financeiro.resources
 C:\Users\MASTER\Documents\SAP\obj\Debug\SAP.frm_consulta_financeiro.resources
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.frm_cadastro_financeiro.resources
+C:\Users\ecaraujo\Documents\SAP\obj\Debug\SAP.frm_consulta_financeiro.resources
