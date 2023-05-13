@@ -42,18 +42,18 @@
             this.dgvDados.AllowUserToDeleteRows = false;
             this.dgvDados.BackgroundColor = System.Drawing.SystemColors.HighlightText;
             this.dgvDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDados.Location = new System.Drawing.Point(12, 132);
+            this.dgvDados.Location = new System.Drawing.Point(12, 50);
             this.dgvDados.Name = "dgvDados";
             this.dgvDados.ReadOnly = true;
             this.dgvDados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDados.Size = new System.Drawing.Size(756, 306);
+            this.dgvDados.Size = new System.Drawing.Size(756, 305);
             this.dgvDados.TabIndex = 14;
             // 
             // btLocalizar
             // 
-            this.btLocalizar.Location = new System.Drawing.Point(532, 103);
+            this.btLocalizar.Location = new System.Drawing.Point(532, 21);
             this.btLocalizar.Name = "btLocalizar";
-            this.btLocalizar.Size = new System.Drawing.Size(75, 23);
+            this.btLocalizar.Size = new System.Drawing.Size(75, 22);
             this.btLocalizar.TabIndex = 17;
             this.btLocalizar.Text = "Localizar";
             this.btLocalizar.UseVisualStyleBackColor = true;
@@ -61,7 +61,7 @@
             // 
             // txtValor
             // 
-            this.txtValor.Location = new System.Drawing.Point(14, 106);
+            this.txtValor.Location = new System.Drawing.Point(14, 24);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(512, 20);
             this.txtValor.TabIndex = 16;
@@ -69,7 +69,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 90);
+            this.label1.Location = new System.Drawing.Point(14, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 15;
@@ -77,9 +77,9 @@
             // 
             // btnIncluir
             // 
-            this.btnIncluir.Location = new System.Drawing.Point(693, 103);
+            this.btnIncluir.Location = new System.Drawing.Point(693, 21);
             this.btnIncluir.Name = "btnIncluir";
-            this.btnIncluir.Size = new System.Drawing.Size(75, 23);
+            this.btnIncluir.Size = new System.Drawing.Size(75, 22);
             this.btnIncluir.TabIndex = 18;
             this.btnIncluir.Text = "Incluir";
             this.btnIncluir.UseVisualStyleBackColor = true;
@@ -89,7 +89,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(780, 450);
+            this.ClientSize = new System.Drawing.Size(780, 372);
             this.Controls.Add(this.btnIncluir);
             this.Controls.Add(this.btLocalizar);
             this.Controls.Add(this.txtValor);
